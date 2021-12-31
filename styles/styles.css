@@ -25,8 +25,9 @@ body {
   background-image: url("../images/bg-mobile.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: top;
+  background-position: 0 top;
   background-color: var(--violet);
+  min-height: 100vh;
   padding: 8% 10%;
 }
 
@@ -37,7 +38,7 @@ body {
 .container {
   text-align: center;
   color: white;
-  padding: 55px 0;
+  padding: 50px 0;
 }
 
 .illustration {
